@@ -1,0 +1,12 @@
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/visualy-hidden";
+
+@import "./base/base";
+@import "./base/reset";
+
+@import "./layouts/hero";
+@import "./layouts/discription";
+@import "./layouts/gallery";
+
+@import "./components/blue";
