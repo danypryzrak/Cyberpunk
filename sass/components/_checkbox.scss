@@ -1,0 +1,52 @@
+/* Стилизация кастомного чекбокса */
+
+.checkbox{
+    display: none;
+}
+
+.custom-checkbox {
+    margin-top: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 300;
+}
+
+/* Стилизация видимой части кастомного чекбокса */
+.checkmark {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid $grey;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* Стилизация "галочки" внутри кастомного чекбокса */
+.checkmark::after {
+  content: "";
+  display: none;
+  width: 10px;
+  height: 5px;
+  border: solid $brand-yellow;
+  border-width: 2px 2px 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+/* Стилизация кастомного чекбокса при его активации */
+.custom-checkbox input:checked + .checkmark {
+  background-color: black; /* Цвет фона при выборе чекбокса */
+  border: 2px solid $brand-yellow; /* Цвет рамки при выборе чекбокса */
+}
+
+/* Показываем "галочку" при активированном чекбоксе */
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+}
