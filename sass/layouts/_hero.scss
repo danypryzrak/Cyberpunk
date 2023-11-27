@@ -1,7 +1,7 @@
 .hero{
     background-position: center;
     @include mobile{
-        background-image:url(../../images/hero/hero1.jpg);
+        background-image:url(../images/hero/hero1.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -13,7 +13,7 @@
     @include tablet{
         display: flex;
         justify-content: space-between;
-        background-image:url(../../images/hero/hero_tablet.png);
+        background-image:url(../images/hero/hero_tablet.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -23,7 +23,7 @@
         height: 1000px;
     }
     @include desktop{
-        background-image: url(../../images/hero/hero_desktop.jpg);
+        background-image: url(../images/hero/hero_desktop.jpg);
         padding-left: 320px;
         padding-right: 320px;
     }
@@ -69,14 +69,14 @@ height: 73.5px;
     height: 207px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../images/hero/block.svg);
+    background-image: url(../images/hero/block.svg);
     margin-top: -157px;
     padding-top: 30px;
     padding-left: 12px;
     padding-right: 12px;
     @include tablet{
         text-align: start;
-        background-image: url(../../images/hero/block-desktop.svg);
+        background-image: url(../images/hero/block-desktop.svg);
         padding-top: 70px;
         margin-top: -369px;
         margin-left: auto;

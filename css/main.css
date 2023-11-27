@@ -53,7 +53,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .hero {
-    background-image: url(../../images/hero/hero1.jpg);
+    background-image: url(../images/hero/hero1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -71,7 +71,7 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url(../../images/hero/hero_tablet.png);
+    background-image: url(../images/hero/hero_tablet.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -83,7 +83,7 @@ p {
 }
 @media screen and (min-width: 1920px) {
   .hero {
-    background-image: url(../../images/hero/hero_desktop.jpg);
+    background-image: url(../images/hero/hero_desktop.jpg);
     padding-left: 320px;
     padding-right: 320px;
   }
@@ -137,7 +137,7 @@ p {
   height: 207px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../images/hero/block.svg);
+  background-image: url(../images/hero/block.svg);
   margin-top: -157px;
   padding-top: 30px;
   padding-left: 12px;
@@ -146,7 +146,7 @@ p {
 @media screen and (min-width: 1024px) {
   .hero__button-block {
     text-align: start;
-    background-image: url(../../images/hero/block-desktop.svg);
+    background-image: url(../images/hero/block-desktop.svg);
     padding-top: 70px;
     margin-top: -369px;
     margin-left: auto;
