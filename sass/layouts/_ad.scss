@@ -1,0 +1,146 @@
+.ad{
+    background-color: $brand-yellow;
+    margin-top: -4px;
+    padding-bottom: 70px;
+}
+
+.ad__container{
+    @include tablet{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;   
+     height: 796px;
+     align-items: baseline;
+    }
+
+    @include desktop{
+        height: 676px;
+    }
+    
+}
+
+.ad__monitor{
+    width: 296px;
+    height: 204px;
+    margin-top: 70px;
+    @include tablet{
+        width: 460px;
+        height: 317px;
+        margin-top: 112px;
+    }
+    @include desktop{
+        width: 624px;
+        height: 430px;
+        margin-top: 70px;
+    }
+}
+
+.ad__icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 25px;
+    @include tablet{
+    width: 460px; 
+    flex-direction: column;
+
+    }
+    @include desktop{
+        width: 624px;
+        flex-direction: row;
+    }
+}
+
+.ad__hp{
+    width: 45px;
+    height: 45px;
+    @include tablet{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.ad__x{
+    width: 20px;
+    height: 20px;
+
+}
+
+.ad__cyber{
+    width: 175px;
+    height: 44px;
+    @include tablet{
+     width: 320px;  
+     height: 80px; 
+    }
+}
+
+.ad__title{
+font-family: Archangelsk;
+font-size: 30px;
+font-weight: 400;
+margin-top: 40px;
+@include tablet{
+        width: 460px;
+        font-size: 62px;
+    }
+}
+
+.ad__text{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 25px;
+@include tablet{
+        width: 460px;
+        font-size: 18px;
+    }
+}
+
+.ad__benefits{
+margin-top: 27px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+@include tablet{
+    width: 460px;   
+    }
+}
+
+.ad__benefit{
+display: flex; 
+gap: 18px;
+align-items: center;
+}
+
+.ad__icon{
+    width: 24px;
+    height: 24px;
+    @include tablet{
+    width: 32px;
+    height: 32px; 
+    }
+}
+
+.benefit__text{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+@include tablet{
+    font-size: 18px; 
+    }
+}
+
+.ad__button{
+    background-color: #000;
+    
+    color: $brand-yellow;
+height: 60px;
+width: 180px;
+padding: 24px 50px;
+align-items: center;
+margin-top: 40px;
+border: none;
+}

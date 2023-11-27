@@ -30,12 +30,12 @@ font-size: 30px;
 font-weight: 400;
 
 @include tablet{
-    width: 460px;
+    
     font-size: 62px;
 }
 
 @include desktop{
-    width: 80%;
+    
 }
 }
 

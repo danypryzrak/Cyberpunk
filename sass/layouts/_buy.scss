@@ -1,0 +1,130 @@
+.buy{
+    background-color: #000;
+    
+
+    @include tablet{
+        display: flex;
+        
+    }
+}
+
+.buy__container{
+    @include mobile{
+        padding: 0 12px 70px 12px;
+    }
+
+    @include tablet{
+        padding: 0 36px 77px 36px;
+    }
+
+    @include desktop{
+        padding: 0 32px 77px 32px;
+    }
+}
+
+.buy__title{
+color: #FFF;
+font-family: Archangelsk;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+margin-top: 40px;
+line-height: normal;
+
+@include tablet {
+    font-size: 62px;
+    margin-top: 70px;
+}
+}
+
+.buy__discription{
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 25px;
+
+@include tablet {
+    font-size: 24px;
+}
+}
+
+.buy__list{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+.buy__item{
+display: flex;
+align-items: center;
+gap: 18px;
+}
+
+.buy__icon{
+    width: 24px;
+    height: 24px;
+
+    @include tablet {
+    width: 32px;
+    height: 32px;
+}
+}
+
+.buy__text{
+    color: #FFF;
+width: 250px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+@include tablet {
+    font-size: 18px;
+    width: 500px;
+}
+}
+
+.buy__discription2{
+    margin-top: 40px;
+    font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+@include tablet {
+    font-size: 24px;
+}
+}
+
+.buy__platforms{
+    margin-top: 25px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.buy__pc{
+    width: 65px;
+    height: 35.19px;
+}
+
+.buy__stadia{
+    width: 58px;
+    height: 50.19px;
+}
+
+.buy__ps{
+    width: 168px;
+    height: 35.19px;
+}
+
+.buy__xbox{
+    width: 178px;
+    height: 35.19px;
+}
